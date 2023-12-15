@@ -1,0 +1,210 @@
+
+/* FONTSTYLE */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Gabriela&display=swap');
+
+
+/*  MEDIA SCREEN SM MOBILE */
+
+@media screen and (min-width: 320px){
+body{
+    background-image: url(../img/neon_truebg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: 'Gabriela', serif;
+  }
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+h1{ 
+    margin: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 3px rgb(255, 255, 255) solid;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.card-img{
+  width: 15rem;
+}
+
+.card-img-top{
+    margin-top: 2em;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5%;
+} 
+
+.card-text{
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(128, 128, 128);
+}
+
+#h3Links{
+  display: none;
+}
+
+.deskPicMe{
+  display: none;
+}
+
+#skills{
+display: none;
+}
+
+.socialIcon{
+  display: none;
+}
+
+footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+}
+
+/*  MEDIA SCREEN MD LG  */
+
+@media screen and (min-width: 720px){
+
+  body{
+    height: 100vh;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+.card-img{
+  width: 100vw;
+}
+
+.card-img img{
+  display: none;
+}
+
+.card-img p{
+  display: none;
+}
+
+.navigationbutton{
+  display: none;
+}
+
+#paraPic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills{
+  display: block;
+  position: absolute;
+  right: 3vw;
+  top: 40%;
+  text-align: right;
+  font-size: 25px;
+  padding: 0%;
+}
+#skills li{
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+#homeId{
+  left: 2vw;
+  top: 5%;
+}
+
+.socialIcon{
+  display: block;
+  position: absolute;
+  left: 2vw;
+  top: 32%;
+  padding: 0%;
+  color: red;
+}
+
+.socialIcon li{
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.deskPicMe{
+  display: block;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  width: 150px ;
+}
+
+#paraDesk{
+font-size: 30px;
+text-align: left;
+}
+
+
+#h3Links{
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 3vw;
+}
+
+#h3Links h3{
+  margin-top: 10vh;
+}
+
+.left{
+align-self: start;
+}
+
+.center{
+  align-self: center;
+}
+
+.right{
+  align-self: end;
+}
+
+h3 a{
+  color: white;
+}
+
+h3 a:hover{
+  text-decoration: none;
+  color:  rgb(128, 128, 128) ;
+}
+
+.resumeBtn{
+  display: none;
+}
+
+}

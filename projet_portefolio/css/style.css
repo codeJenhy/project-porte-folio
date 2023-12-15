@@ -78,6 +78,9 @@ display: none;
 .socialIcon{
   display: none;
 }
+#paraDesk{
+  display: none;
+}    
 
 footer{
   text-align: center;
@@ -163,6 +166,7 @@ footer{
 }
 
 #paraDesk{
+display : block;
 font-size: 30px;
 text-align: left;
 }
